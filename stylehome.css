@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #9ee3fe;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    filter: drop-shadow(0 0.2rem 0.25rem #0957fa);
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: #222;
+    cursor: default;
+}
+
+.logo span {
+    color: #0957fa;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #0957fa;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #222;
+}
+
+.tombol-wa {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #0957fa;
+    border-radius: 10px;
+    border: 2px solid #0957fa;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.tombol-wa:hover {
+    color: #0957fa;
+    background: transparent;
+    transform: translateY(-4px);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 30px 90px;
+}
+
+.about-me {
+    color: #222;
+    font-size: 20px;
+}
+
+.about-me h2 {
+    font-size: 2.5em;
+    margin-top: 150px;
+}
+
+.about-me span {
+    color: #0957fa;
+}
+
+.about-me img {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+    filter: drop-shadow(0 0.2rem 0.25rem #222);
+}
+
+.about-me h3 {
+    font-size: 1.5em;
+    margin-top: 50px;
+    color: #0957fa;
+    background: white;
+    background-size: contain;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #0957fa;
+    border-radius: 8px;
+}
+
+.about-me p {
+    padding: 10px 0 10px 0;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.tempat-tinggal {
+    color: #222;
+    font-size: 20px;
+}
+
+.tempat-tinggal a img {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    filter: drop-shadow(0 0.2rem 0.25rem #222);
+}
+
+.tempat-tinggal h3 {
+    font-size: 1.5em;
+    margin-left: 585px;
+    color: #0957fa;
+}
+
+.tempat-tinggal p {
+    padding: 10px 0 40px 0;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.tentang-rpl {
+    color: #222;
+    font-size: 20px;
+}
+
+.tentang-rpl img {
+    width: 20%;
+    height: 20%;
+    margin-top: 200px;
+    margin-left: 400px;
+    filter: drop-shadow(0 0.2rem 0.25rem #222);
+}
+
+.tentang-rpl h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-align: left;
+    color: #0957fa;
+}
+
+.tentang-rpl p {
+    padding: 10px 0 40px 0;
+    margin-top: 1px;
+    text-align: justify;
+}
+
+.kutipan {
+    color: #222;
+    font-size: 23.5px;
+}
+
+.kutipan h3 {
+    margin-top: 10px;
+    color: #0957fa;
+}
+
+.kutipan p {
+    padding: 10px 0 40px 0;
+    text-align: center;
+}
+
+.kutipan blockquote {
+    padding: 10px 0 40px 0;
+    text-align: center;
+}

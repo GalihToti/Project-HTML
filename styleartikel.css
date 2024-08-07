@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #9ee3fe;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    filter: drop-shadow(0 0.2rem 0.25rem #0957fa);
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: #222;
+    cursor: default;
+}
+
+.logo span {
+    color: #0957fa;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #0957fa;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #222;
+}
+
+.tombol-wa {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #0957fa;
+    border-radius: 10px;
+    border: 2px solid #0957fa;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.tombol-wa:hover {
+    color: #0957fa;
+    background: transparent;
+    transform: translateY(-4px);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.judul h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 140px;
+    color: #0957fa;
+}
+
+.judul span {
+    color: #222;
+}
+
+.nama-penulis h4 {
+    font-size: 2em;
+}
+
+.nama-penulis .list-1 {
+    list-style-type: decimal;
+}
+
+.nama-penulis li {
+    margin-left: 70px;
+}
+
+.daftar-isi h4 {
+    font-size: 2em;
+}
+
+.daftar-isi .list-2 {
+    list-style-type: circle;
+}
+
+.daftar-isi ul li {
+    margin-left: 70px;
+}
+
+.daftar-isi ul li a {
+    color: #222;
+    text-decoration: none;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.daftar-isi ul li a:hover {
+    color: #0957fa;
+}
+
+.abstrak h2 {
+    padding: 6.5rem;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.abstrak p {
+    text-align: justify;
+    padding: 0 0 15px 0;
+}
+
+
+.pendahuluan h2 {
+    padding: 6.5rem;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.pendahuluan p {
+    text-align: justify;
+    padding: 0 0 15px 0;
+}
+
+
+.metode-penelitian h2 {
+    padding: 6.5rem;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.metode-penelitian p {
+    text-align: justify;
+}
+
+
+.hasil-dan-pembahasan h2 {
+    padding: 6.5rem;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.hasil-dan-pembahasan table, th, td {
+    border: 1px solid black;
+}
+
+.hasil-dan-pembahasan table {
+    background-color: white;
+}
+
+.hasil-dan-pembahasan thead {
+    background-color: #0957fa;
+    color: white;
+    text-align: center;
+}
+
+.hasil-dan-pembahasan td 
+
+.hasil-dan-pembahasan p {
+    padding: 0 0 10px 0;
+    margin-top: 8px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+
+.kesimpulan h2 {
+    padding: 6.5rem;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.kesimpulan p {
+    text-align: justify;
+} 
+
+
+.daftar-pustaka h2 {
+    padding: 6.5rem;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.daftar-pustaka li {
+    padding: 8px;
+}

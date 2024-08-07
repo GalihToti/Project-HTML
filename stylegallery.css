@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #9ee3fe;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    filter: drop-shadow(0 0.2rem 0.25rem #0957fa);
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: #222;
+    cursor: default;
+}
+
+.logo span {
+    color: #0957fa;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #0957fa;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #222;
+}
+
+.tombol-wa {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #0957fa;
+    border-radius: 10px;
+    border: 2px solid #0957fa;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.tombol-wa:hover {
+    color: #0957fa;
+    background: transparent;
+    transform: translateY(-4px);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.content {
+    color: #222;
+}
+
+.foto {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.foto h2 {
+    margin-top: 120px;
+    margin-left: 10px;
+    font-size: 2.5em;
+    color: #0957fa;
+}
+
+.foto img {
+    width: 24.5%;
+    height: 24%;
+    margin-top: 5px;
+    margin-left: 1px;
+    padding: 17px;
+    align-items: center;
+    border-radius: 10px;
+    filter: drop-shadow(0 0.2rem 0.2rem #222);
+}
+
+.musik h2 {
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #0957fa;
+}
+
+.musik audio {
+    margin-left: 80px;
+}
+
+.video h2 {
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #0957fa; 
+}
+
+.video video {
+    width: 49%;
+    height: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0.2rem 0.25rem #222);
+}
+
